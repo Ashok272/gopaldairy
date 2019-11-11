@@ -28,9 +28,9 @@
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<beans:property name="url"
-			value="jdbc:mysql://localhost:3306/dairy" />
-		<beans:property name="username" value="aartik" />
-		<beans:property name="password" value="Aartik@007" />
+			value="jdbc:mysql://remotemysql.com:3306/ieJk6t58OY" />
+		<beans:property name="username" value="ieJk6t58OY" />
+		<beans:property name="password" value="RXRrpLLKeW" />
 	</beans:bean>
  <beans:bean id="customSuccessHandler" class="com.dbms.CustomHandler"/>
 </beans:beans>
